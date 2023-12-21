@@ -54,3 +54,22 @@ O projeto "Conversor Real para Dolar" é para converter um valor real para em do
 - **Kotlin:** Linguagem moderna e concisa para o desenvolvimento Android.
 - **Android Studio:** Ambiente de desenvolvimento integrado para criação de aplicativos Android.
 </details> 
+
+---
+
+<details>
+<summary>Conversor Temperatura de Celsius para Fahrenheit- ConversorTemperatura</summary>
+
+## Projeto de Estudos Android
+
+### Descrição
+O projeto "Conversor Temperatura de Celsius para Fahrenheit" Converte graus Celsius para Fahrenheit ao digitar o valor no input e clicar no botão para coverter. Tem tratamento no input caso não digite nenhum valor.
+
+### Recursos Principais
+- Projeto para estudo em Android utilizando Kotlin e Java.
+
+### Tecnologias Utilizadas
+- **Java:** Plataforma de desenvolvimento que oferece uma abordagem eficiente e poderosa para criar aplicativos escaláveis e de alto desempenho.
+- **Kotlin:** Linguagem moderna e concisa para o desenvolvimento Android.
+- **Android Studio:** Ambiente de desenvolvimento integrado para criação de aplicativos Android.
+</details>

@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.button.setOnClickListener {
             if (!binding.editValor.text.toString().isBlank()) {
-                var celcius = binding.editValor.text.toString().toDouble()
-                var f = String.format("%.2f",celcius * 1.8 + 32)
+                var celsius = binding.editValor.text.toString().toDouble()
+                var f = String.format("%.2f",celsius * 1.8 + 32)
                 binding.textResultado.text = "${f} °F"
             } else {
                 binding.textResultado.text = "Valor inválido!"
