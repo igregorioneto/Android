@@ -14,6 +14,7 @@
         android:layout_marginTop="140dp"
         android:layout_marginEnd="10dp"
         android:ems="10"
+        android:hint="Digite seu nome"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,11 +25,11 @@
         android:id="@+id/button_ola"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="44dp"
         android:text="DIZER OLÁ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_nome" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_sobrenome" />
 
     <TextView
         android:id="@+id/text_resultado"
@@ -40,4 +41,19 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_ola" />
+
+    <EditText
+        android:id="@+id/edit_sobrenome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:hint="Digite seu sobrenome"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nome" />
 </androidx.constraintlayout.widget.ConstraintLayout>
