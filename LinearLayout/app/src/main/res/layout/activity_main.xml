@@ -7,34 +7,64 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversor de Moedas"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="10sp"
+        />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite aqui o valor em Reais R$"
+        android:hint="Digite aqui o valor"
         android:layout_margin="20sp"
         android:padding="20sp"
         android:id="@+id/edit_real"
         android:textSize="20sp"
         android:inputType="number|numberDecimal|numberSigned"
+        android:gravity="center"
         />
 
-    <Button
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:text="CONVERTER"
-        android:textSize="20sp"
-        android:id="@+id/button_conversor"
-        />
+        android:padding="10sp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dolar"
+            android:id="@+id/button_dolar"
+            android:layout_marginHorizontal="5sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Euro"
+            android:id="@+id/button_euro"
+            android:layout_marginHorizontal="5sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso"
+            android:id="@+id/button_peso"
+            android:layout_marginHorizontal="5sp"
+            />
+    </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RESULTADO"
+        android:text="Desenvolvido por: Greg"
+        android:layout_marginTop="80sp"
         android:gravity="center"
-        android:layout_margin="20sp"
-        android:textSize="30sp"
-        android:id="@+id/text_resultado"
         />
 
 </LinearLayout>
