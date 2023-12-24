@@ -1,5 +1,6 @@
 package com.greg.loginapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -19,8 +20,10 @@ class MainActivity : AppCompatActivity() {
 
             if (username.equals("user") && password.equals("pass")) {
                 Toast.makeText(applicationContext, "Login efetuado com sucesso!", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, LoginOkActivity::class.java))
             } else {
                 Toast.makeText(applicationContext, "Login Inválido!", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this, LoginErrorActivity::class.java))
             }
 
             binding.editUsername.setText("")
