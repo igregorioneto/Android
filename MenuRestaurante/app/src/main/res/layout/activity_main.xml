@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    Café -->
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/checkbox_cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:text="Café" />
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/cafe"
+            android:layout_marginHorizontal="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: " />
+
+        <EditText
+            android:id="@+id/quantidade_cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:text="0" />
+        <TextView
+            android:id="@+id/valor_quantidade_cafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 0"
+            android:layout_marginLeft="10sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!--    Pão   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/checkbox_pao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_pao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:text="Pão" />
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/pao"
+            android:layout_marginHorizontal="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: " />
+
+        <EditText
+            android:id="@+id/quantidade_pao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:minWidth="30dp"
+            android:gravity="center"
+            android:text="0" />
+        <TextView
+            android:id="@+id/valor_quantidade_pao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 0"
+            android:layout_marginLeft="10sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!--  Chocolate  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <CheckBox
+            android:id="@+id/checkbox_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="50sp"
+            android:text="Chocolate" />
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/chocolate"
+            android:layout_marginHorizontal="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: " />
+
+        <EditText
+            android:id="@+id/quantidade_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:minWidth="30dp"
+            android:text="0" />
+        <TextView
+            android:id="@+id/valor_quantidade_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 0"
+            android:layout_marginLeft="10sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/enviarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR PEDIDO"
+        android:layout_marginTop="20sp"
+        />
+
+</LinearLayout>
