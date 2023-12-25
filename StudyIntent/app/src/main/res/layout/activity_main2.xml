@@ -5,16 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity2">
 
-    <TextView
-        android:id="@+id/text_nome"
+    <EditText
+        android:id="@+id/edit_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Olá"
-        android:textSize="50sp"
+        android:hint="Digite um nome"
+        android:padding="10sp"
+        android:textSize="40sp"
         android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:padding="10sp"
+        />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CANCELAR"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:padding="10sp"
         />
 
 </LinearLayout>
