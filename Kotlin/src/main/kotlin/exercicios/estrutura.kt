@@ -1,3 +1,5 @@
+package exercicios
+
 fun main() {
     //forever()
     println("Trabalhando com Condição")

@@ -1,3 +1,5 @@
+package exercicios
+
 class Button private constructor(val id: Int, color: Int) {
     companion object {
         var currentId = 0

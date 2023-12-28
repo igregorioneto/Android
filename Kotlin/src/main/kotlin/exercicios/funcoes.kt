@@ -1,4 +1,4 @@
-
+package exercicios
 
 fun main() {
     println("A soma é ${sum(2)}")

@@ -1,3 +1,5 @@
+package exercicios
+
 const val constante = 10
 fun main() {
     println("Base Kotlin")

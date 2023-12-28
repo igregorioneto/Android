@@ -1,3 +1,5 @@
+package exercicios
+
 class Product(var name: String, var price: Double) {
     override fun equals(other: Any?): Boolean {
         if (this == other)
